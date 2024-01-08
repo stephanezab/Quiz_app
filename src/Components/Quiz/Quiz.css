@@ -33,3 +33,21 @@
     font-size: 20px;
     cursor: pointer;
 }
+
+.Container button{
+    margin:auto;
+    width: 250px;
+    height: 65px;
+    background-color: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.Container .index {
+    margin: auto;
+    font-size: 18px;
+}
