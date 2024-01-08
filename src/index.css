@@ -1,3 +1,8 @@
 *{
   margin: 0;
 }
+body{
+  height: 100vh;
+  background-image: linear-gradient(#D8c7ff, #19006C);
+
+}
