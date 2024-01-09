@@ -34,8 +34,8 @@
     cursor: pointer;
 }
 
-.Container button{
-    margin:auto;
+.container button{
+    margin: auto;
     width: 250px;
     height: 65px;
     background-color: #553f9a;
@@ -47,7 +47,7 @@
 
 }
 
-.Container .index {
+.container .index {
     margin: auto;
     font-size: 18px;
 }
