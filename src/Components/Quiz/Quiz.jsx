@@ -52,11 +52,23 @@ const Quiz = () => {
         }
     }
 
+    const reset = () =>{
+        setIndex(0)
+        setQuestion(data[index])
+        setScore(0)
+        setLock(false)
+        setResult(false)
+    }
+
   return (
     <div className = "container">
         <h1>Quiz App</h1>
         <hr/>
-        {result?<></>: <> 
+
+        {result?<>
+        <h2>You Scored {score} out of {data.length}</h2>
+        <button onClick={reset}>Reset</button>
+        </> : <> 
         <h2>{index + 1}. {question.question}</h2>
         <ul>
             <li ref ={Option1} onClick={(e) => {checkAns(e, 1)}}>{question.option1}</li>
@@ -66,6 +78,7 @@ const Quiz = () => {
         </ul>
         <button onClick={next}>Next</button>
         <div className="index">{index + 1} of {data.length} questions</div></>}
+        
     </div>
   )
 }
