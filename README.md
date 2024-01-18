@@ -7,10 +7,8 @@ Welcome to the Quiz Game! This interactive quiz game is built using React.js, of
 ### Features
 
 - **Dynamic Question Sets:** Enjoy a variety of questions from different categories.
-- **Timed Responses:** Challenge yourself with timed questions to boost your quick-thinking skills.
 - **Score Tracking:** Keep track of your progress with an in-game scoring system.
 - **Responsive Design:** Play on any device with our fully responsive layout.
-- **Customizable Settings:** Choose your preferred difficulty level and question categories.
 
 ## Installation
 
