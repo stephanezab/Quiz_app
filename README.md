@@ -14,11 +14,11 @@ Welcome to the Quiz Game! This interactive quiz game is built using React.js, of
 
 To get this project up and running on your local machine, follow these steps:
 
-1. **Clone or Download this repository**. 
-```bash
-https://github.com/stephanezab/Quiz_app.git
+1. **Clone or Download this repository** 
+  ```bash
+  https://github.com/stephanezab/Quiz_app.git
 
-```
+  ```
 
 ### Prerequisites
 
